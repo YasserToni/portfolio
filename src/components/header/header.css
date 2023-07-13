@@ -16,7 +16,34 @@ header {
   gap: 1.2rem;
   justify-content: center;
 }
-
+.name {
+  position: relative;
+  width: fit-content;
+  font-size: 3rem;
+  margin: auto;
+  color: var(--color-primary);
+}
+.name::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #111;
+  /* background-image: url(../../img/bg-texture.jpg); */
+  border-left: 2px solid var(--color-primary);
+  animation: animate 4s steps(12) infinite;
+}
+@keyframes animate {
+  40%,
+  60% {
+    left: calc(100% + 4px);
+  }
+  100% {
+    left: 0;
+  }
+}
 /* ============= HEADER SOCIALS ================ */
 .header__socials {
   display: flex;
@@ -69,7 +96,7 @@ header {
 .custom-loader:after {
   content: "";
   grid-area: 1/1;
-  background: #4db5ff;
+  background: var(--color-primary);
   clip-path: polygon(
     0 10px,
     calc(100% - 15px) 10px,
