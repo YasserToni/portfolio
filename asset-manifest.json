@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.691bfaea.css",
-    "main.js": "/portfolio/static/js/main.d780b604.js",
+    "main.js": "/portfolio/static/js/main.b3a38353.js",
     "static/media/me2.png": "/portfolio/static/media/me2.1dba674133b14bfaf592.png",
     "static/media/b.jpg": "/portfolio/static/media/b.431595d137e5d271b588.jpg",
     "static/media/cv.pdf": "/portfolio/static/media/cv.f9a764604d2b53ba67dc.pdf",
@@ -16,16 +16,17 @@
     "static/media/port2.jpg": "/portfolio/static/media/port2.90cb8bc942fe53b40f04.jpg",
     "static/media/hangman.jpg": "/portfolio/static/media/hangman.30583767a0b0c9ef0d63.jpg",
     "static/media/game.jpg": "/portfolio/static/media/game.5967771901088b20cfe1.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.02fae5afcb5c3f64440f.jpg",
     "static/media/Avatar.jpg": "/portfolio/static/media/Avatar.11f1e61604f28a12edd4.jpg",
     "static/media/bootstrap.jpg": "/portfolio/static/media/bootstrap.465d2ec178b1b8f52e47.jpg",
     "static/media/to-do-list.jpg": "/portfolio/static/media/to-do-list.555dcd152445dfac6130.jpg",
     "static/media/local-storage-items.jpg": "/portfolio/static/media/local-storage-items.b05f2e467361efdb45e1.jpg",
     "index.html": "/portfolio/index.html",
     "main.691bfaea.css.map": "/portfolio/static/css/main.691bfaea.css.map",
-    "main.d780b604.js.map": "/portfolio/static/js/main.d780b604.js.map"
+    "main.b3a38353.js.map": "/portfolio/static/js/main.b3a38353.js.map"
   },
   "entrypoints": [
     "static/css/main.691bfaea.css",
-    "static/js/main.d780b604.js"
+    "static/js/main.b3a38353.js"
   ]
 }
