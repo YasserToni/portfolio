@@ -12,8 +12,16 @@ import local from "../../img/local-storage-items.jpg";
 import slider from "../../img/slider.jpg";
 import toDoList from "../../img/to-do-list.jpg";
 import login from "../../img/login.jpg";
+import portfolio from "../../img/portfolio.jpg";
 
 const data = [
+  {
+    id: 0,
+    img: portfolio,
+    title: "Portfolio Using React Js",
+    github: "https://github.com/YasserToni/portfolio",
+    demo: "https://yassertoni.github.io/portfolio/",
+  },
   {
     id: 1,
     img: port1,
