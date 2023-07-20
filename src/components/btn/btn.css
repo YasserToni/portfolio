@@ -1,0 +1,71 @@
+
+.aa {
+    position: relative;
+    padding: 12px 8px;
+    display: block;
+    text-decoration: none;
+    width: 115px;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.aa .spanspan {
+  position: relative;
+  color: var(--color-white);
+  font-size: 16px;
+  z-index: 1;
+}
+
+.aa .liquid {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 190px;
+  height: 190px;
+  background: var(--color-primary);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.aa .liquid::after,
+.aa .liquid::before {
+  content: "";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #000;
+}
+
+.aa .liquid::before {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: animate1 4s linear infinite;
+}
+
+.aa .liquid::after {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, 0.5);
+  animation: animate1 10s linear infinite;
+}
+
+.aa:hover .liquid {
+  top: -120px;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}

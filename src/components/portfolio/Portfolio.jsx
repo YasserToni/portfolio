@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import Data from "./data";
+import "./btn.css";
 
 const Portfolio = () => {
   return (
@@ -18,8 +19,9 @@ const Portfolio = () => {
               <a href={github} className="btn" target="_blank">
                 Github
               </a>
-              <a href={demo} className="btn btn-primary" target="_blank">
-                Live Demo
+              <a className="aa" href={demo} target="_blank">
+                <span className="spanspan">Live Demo</span>
+                <div class="liquid"></div>
               </a>
             </div>
           </article>

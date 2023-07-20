@@ -23,13 +23,13 @@ StarRating.propTypes = {
 };
 
 export default function StarRating({
-  maxRating = 5,
+  maxRating = 10,
   color = "#fcc419",
-  size = 48,
+  size = 30,
   className,
   message = [],
   defaultRating = 0,
-  onSetingRating,
+  // onSetingRating,
 }) {
   let [rating, setRating] = useState(defaultRating);
 
@@ -37,7 +37,7 @@ export default function StarRating({
 
   function handleRating(rating) {
     setRating(rating);
-    onSetingRating(rating);
+    // onSetingRating(rating);
   }
 
   const textStyle = {

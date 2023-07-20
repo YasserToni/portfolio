@@ -1,5 +1,22 @@
-.rate {
+/* .rate {
+  width: fit-content;
+  justify-content: center;
+  margin: 3rem auto 1rem;
+  box-shadow: hsla(205, 100%, 65%, 0.404) 5px 5px,
+    hsla(205, 100%, 65%, 0.3) 10px 10px, hsla(205, 100%, 65%, 0.201) 15px 15px,
+    hsla(205, 100%, 65%, 0.103) 20px 20px, hsla(205, 100%, 65%, 0.048) 25px 25px;
+} */
+.rating {
+  width: fit-content;
+  margin: 3rem auto 1rem;
+}
+.rating-title {
+  color: #fcc419;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
+  text-transform: capitalize;
 }

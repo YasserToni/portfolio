@@ -37,10 +37,16 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="#">
+        <a
+          href="https://www.facebook.com/YasserTonii?mibextid=ZbWKwL"
+          target="_blank"
+        >
           <FaFacebookF />
         </a>
-        <a href="#">
+        <a
+          href="https://instagram.com/yasser_altony?igshid=MzNlNGNkZWQ4Mg=="
+          target="_blank"
+        >
           <FiInstagram />
         </a>
         <a href="#">

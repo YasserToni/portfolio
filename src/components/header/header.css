@@ -27,12 +27,12 @@ header {
   content: "";
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 60%;
   left: 0;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   background-color: #111;
-  /* background-image: url(../../img/bg-texture.jpg); */
-  border-left: 2px solid var(--color-primary);
+  border-left: 4px solid var(--color-primary);
   animation: animate 4s steps(12) infinite;
 }
 @keyframes animate {
@@ -53,6 +53,7 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+  font-size: 1.5rem;
 }
 .header__socials::after {
   content: "";
@@ -72,6 +73,16 @@ header {
   overflow: hidden;
   padding: 1.5rem 1rem;
 }
+/* .linkedin {
+  color: #0a66c2;
+
+} */
+/* .github{
+  color: #6e5494 ;
+} */
+/* .dribbble{
+  color: #ea4c89 ;
+} */
 /* .scroll__down {
   position: absolute;
   right: -2.3rem;

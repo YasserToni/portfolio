@@ -1,16 +1,11 @@
 import StarRating from "./StarRating";
-import "./rate.css";
-
+import './rate.css'
 function Rate() {
-  return (
-    <div className="rate">
-      <StarRating
-        maxRating={5}
-        className="test"
-        message={["Terrible", "Bad", "Okey", "Good", "Amazing"]}
-        defaultRating={3}
-      />
-    </div>
-  );
+        return (
+                <div className="rating">
+                        <div className="rating-title">You can rate my website: </div>
+                        <StarRating size={30}/>
+                </div>
+        )
 }
 export default Rate;

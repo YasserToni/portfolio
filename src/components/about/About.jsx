@@ -4,6 +4,7 @@ import img from "../../img/b.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import Btn from '../btn/Btn'
 
 const About = () => {
   return (
@@ -40,9 +41,10 @@ const About = () => {
             corporis possimus enim, omnis inventore fugit, quis sit aut placeat
             perferendis officia?
           </p>
-          <a href="#contact" className="btn btn-primary">
+          {/* <a href="#contact" className="btn btn-primary">
             Let's Talk
-          </a>
+          </a> */}
+          < Btn/>
         </div>
       </div>
     </section>

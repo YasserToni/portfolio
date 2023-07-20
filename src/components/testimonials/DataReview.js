@@ -4,50 +4,44 @@ const data = [
   {
     avatar: Avatar,
     name: "Yasser Toni",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusamus inventore tempore soluta consequuntur nesciunt est
-              quasi, officiis nostrum suscipit dolorem commodi saepe
-              perspiciatis, nemo id amet? Est numquam doloremque illo!`,
+    review: `I am studying at the faculty of Communication engineering – Helwan university.
+a beginner-level vocational with appropriate knowledge in the field of front-end design for
+Websites, I am looking for a job where I can use my skills to achieve the goals of the organization to which I belong, as well as increase my experience in my field.`,
   },
   {
     avatar: Avatar,
     name: "Yasser Toni",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusamus inventore tempore soluta consequuntur nesciunt est
-              quasi, officiis nostrum suscipit dolorem commodi saepe
-              perspiciatis, nemo id amet? Est numquam doloremque illo!`,
+    review: `I am studying at the faculty of Communication engineering – Helwan university.
+a beginner-level vocational with appropriate knowledge in the field of front-end design for
+Websites, I am looking for a job where I can use my skills to achieve the goals of the organization to which I belong, as well as increase my experience in my field.`,
   },
   {
     avatar: Avatar,
     name: "Yasser Toni",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusamus inventore tempore soluta consequuntur nesciunt est
-              quasi, officiis nostrum suscipit dolorem commodi saepe
-              perspiciatis, nemo id amet? Est numquam doloremque illo!`,
+    review: `I am studying at the faculty of Communication engineering – Helwan university.
+a beginner-level vocational with appropriate knowledge in the field of front-end design for
+Websites, I am looking for a job where I can use my skills to achieve the goals of the organization to which I belong, as well as increase my experience in my field.`,
   },
   {
     avatar: Avatar,
     name: "Yasser Toni",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusamus inventore tempore soluta consequuntur nesciunt est
-              quasi, officiis nostrum suscipit dolorem commodi saepe
-              perspiciatis, nemo id amet? Est numquam doloremque illo!`,
+    review: `I am studying at the faculty of Communication engineering – Helwan university.
+a beginner-level vocational with appropriate knowledge in the field of front-end design for
+Websites, I am looking for a job where I can use my skills to achieve the goals of the organization to which I belong, as well as increase my experience in my field.`,
   },
   {
     avatar: Avatar,
     name: "Yasser Toni",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusamus inventore tempore soluta consequuntur nesciunt est
-              quasi, officiis nostrum suscipit dolorem commodi saepe
-              perspiciatis, nemo id amet? Est numquam doloremque illo!`,
+    review: `I am studying at the faculty of Communication engineering – Helwan university.
+a beginner-level vocational with appropriate knowledge in the field of front-end design for
+Websites, I am looking for a job where I can use my skills to achieve the goals of the organization to which I belong, as well as increase my experience in my field.`,
   },
   {
     avatar: Avatar,
     name: "Yasser Toni",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusamus inventore tempore soluta consequuntur nesciunt est
-              quasi, officiis nostrum suscipit dolorem commodi saepe
-              perspiciatis, nemo id amet? Est numquam doloremque illo!`,
+    review: `I am studying at the faculty of Communication engineering – Helwan university.
+a beginner-level vocational with appropriate knowledge in the field of front-end design for
+Websites, I am looking for a job where I can use my skills to achieve the goals of the organization to which I belong, as well as increase my experience in my field.`,
   },
 ];
 export default data;

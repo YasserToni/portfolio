@@ -8,7 +8,8 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import Rate from "./components/Rate/Rate";
+import StarRating from "./components/Rate/StarRating";
+import Rate from './components/Rate/Rate'
 const App = () => {
   return (
     <>
@@ -20,7 +21,8 @@ const App = () => {
       <Portfolio />
       <Testimonials />
       <Contact />
-      {/* <Rate /> */}
+      {/* <StarRating maxRating={10} className='rate' /> */}
+      <Rate />
       <Footer />
     </>
   );

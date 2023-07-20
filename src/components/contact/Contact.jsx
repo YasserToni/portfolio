@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import { FiMail } from "react-icons/fi";
 import { BsMessenger } from "react-icons/bs";
@@ -7,6 +7,11 @@ import { useRef } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
+
+  const [name, setName] = useState("")
+  const [mail, setMail] = useState("")
+  const [message, setMessage] = useState("")
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -26,7 +31,10 @@ const Contact = () => {
         (error) => {
           console.log(error.text);
         }
-      );
+    );
+    setName("");
+    setMail("");
+    setMessage("");
   };
 
   return (
@@ -67,13 +75,24 @@ const Contact = () => {
             name="name"
             placeholder="Your Full Name"
             required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            value={mail}
+            onChange={(e) => setMail(e.target.value)}
+          />
           <textarea
             rows={7}
             name="message"
             placeholder="Your Message"
             required
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
           />
           <button type="submit" className="btn btn-primary">
             Send Your Message Now!
