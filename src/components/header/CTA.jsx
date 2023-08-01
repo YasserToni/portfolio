@@ -11,7 +11,7 @@ const CTA = () => {
       {/* <a href="#contact" className="btn btn-primary">
         Let's Talk
       </a> */}
-      < Btn/>
+      <Btn>Let's Talk</Btn>
     </div>
   );
 };

@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
+    transition: var(--transition);
 }
 .portfolio__items {
   background: var(--color-bg-varient);
@@ -17,6 +18,7 @@
 .portfolio__items-image {
   border-radius: 1.5rem;
   overflow: hidden;
+    transition: var(--transition);
 }
 .portfolio__items h3 {
   margin: 1.2rem 0rem 2rem;
@@ -26,6 +28,26 @@
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+.more__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more {
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  background-color: #111111;
+  color: var(--color-primary);
+  font-size: 1rem;
+  margin: 2rem auto;
+}
+.more:hover {
+  background-color: white;
+  color: #111111;
 }
 /* =============== Media Quiery (Medium Devices) ============== */
 

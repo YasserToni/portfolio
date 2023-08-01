@@ -1,9 +1,9 @@
 // import CV from "../../img/cv.pdf";
 import "./btn.css";
-function Btn() {
+function Btn({ children}) {
   return (
     <a className="aa" href="#contact">
-      <span className="spanspan">Let's Talk</span>
+      <span className="spanspan">{children }</span>
       <div class="liquid"></div>
     </a>
   );
