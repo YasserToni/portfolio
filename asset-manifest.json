@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ef77a10e.css",
-    "main.js": "/portfolio/static/js/main.e1e79d0f.js",
+    "main.css": "/portfolio/static/css/main.7735e5b9.css",
+    "main.js": "/portfolio/static/js/main.42769c13.js",
     "static/media/me2.png": "/portfolio/static/media/me2.1dba674133b14bfaf592.png",
     "static/media/b.jpg": "/portfolio/static/media/b.431595d137e5d271b588.jpg",
     "static/media/cv.pdf": "/portfolio/static/media/cv.f9a764604d2b53ba67dc.pdf",
     "static/media/port4.jpg": "/portfolio/static/media/port4.c9a14e7587a9a40875cb.jpg",
     "static/media/login.jpg": "/portfolio/static/media/login.ce96376a8c87a650dfb3.jpg",
     "static/media/usepopcorn.jpg": "/portfolio/static/media/usepopcorn.71c351514e9ae9e82fc5.jpg",
+    "static/media/worldwise.jpg": "/portfolio/static/media/worldwise.fef4ed81b2a546753a20.jpg",
+    "static/media/fast-pizza.jpg": "/portfolio/static/media/fast-pizza.310a4e943aac3b889852.jpg",
     "static/media/temp-5.jpg": "/portfolio/static/media/temp-5.73101a51516baab42192.jpg",
     "static/media/port1.jpg": "/portfolio/static/media/port1.6eb62615cf892691b8a0.jpg",
     "static/media/far-away.jpg": "/portfolio/static/media/far-away.5ec0ff2346b49f4f3fa2.jpg",
@@ -26,11 +28,11 @@
     "static/media/to-do-list.jpg": "/portfolio/static/media/to-do-list.555dcd152445dfac6130.jpg",
     "static/media/local-storage-items.jpg": "/portfolio/static/media/local-storage-items.b05f2e467361efdb45e1.jpg",
     "index.html": "/portfolio/index.html",
-    "main.ef77a10e.css.map": "/portfolio/static/css/main.ef77a10e.css.map",
-    "main.e1e79d0f.js.map": "/portfolio/static/js/main.e1e79d0f.js.map"
+    "main.7735e5b9.css.map": "/portfolio/static/css/main.7735e5b9.css.map",
+    "main.42769c13.js.map": "/portfolio/static/js/main.42769c13.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef77a10e.css",
-    "static/js/main.e1e79d0f.js"
+    "static/css/main.7735e5b9.css",
+    "static/js/main.42769c13.js"
   ]
 }
