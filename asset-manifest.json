@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7735e5b9.css",
-    "main.js": "/portfolio/static/js/main.74389aaf.js",
+    "main.js": "/portfolio/static/js/main.fc821bbf.js",
     "static/media/me2.png": "/portfolio/static/media/me2.1dba674133b14bfaf592.png",
     "static/media/b.jpg": "/portfolio/static/media/b.431595d137e5d271b588.jpg",
     "static/media/cv.pdf": "/portfolio/static/media/cv.45939886866005be7436.pdf",
@@ -11,6 +11,7 @@
     "static/media/worldwise.jpg": "/portfolio/static/media/worldwise.fef4ed81b2a546753a20.jpg",
     "static/media/fast-pizza.jpg": "/portfolio/static/media/fast-pizza.310a4e943aac3b889852.jpg",
     "static/media/temp-5.jpg": "/portfolio/static/media/temp-5.73101a51516baab42192.jpg",
+    "static/media/the wild oasis.jpg": "/portfolio/static/media/the wild oasis.147d1d58c92eed1bb5f6.jpg",
     "static/media/port1.jpg": "/portfolio/static/media/port1.6eb62615cf892691b8a0.jpg",
     "static/media/far-away.jpg": "/portfolio/static/media/far-away.5ec0ff2346b49f4f3fa2.jpg",
     "static/media/port3.jpg": "/portfolio/static/media/port3.048c2ea8000c34540318.jpg",
@@ -29,10 +30,10 @@
     "static/media/local-storage-items.jpg": "/portfolio/static/media/local-storage-items.b05f2e467361efdb45e1.jpg",
     "index.html": "/portfolio/index.html",
     "main.7735e5b9.css.map": "/portfolio/static/css/main.7735e5b9.css.map",
-    "main.74389aaf.js.map": "/portfolio/static/js/main.74389aaf.js.map"
+    "main.fc821bbf.js.map": "/portfolio/static/js/main.fc821bbf.js.map"
   },
   "entrypoints": [
     "static/css/main.7735e5b9.css",
-    "static/js/main.74389aaf.js"
+    "static/js/main.fc821bbf.js"
   ]
 }
